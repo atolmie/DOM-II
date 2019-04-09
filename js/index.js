@@ -36,8 +36,14 @@ buttons.forEach(button => {
 
 })
 
-//const welcome = document.querySelector(".intro .h2");
-//welcome.addEventListener('mousemove', (e) => {
-   // e.target.style.backgroundColor = '#F39C12';
-//})
-//console.warn(welcome); 
+const welcome = document.querySelector(".intro h2");
+welcome.addEventListener('dblclick', () => {
+    welcome.style.backgroundColor = '#239B56';
+})
+console.log(welcome);
+
+const bottomChange = document.querySelector("container home");
+bottomChange.addEventListener('scroll', () => {
+    bottomChange.style.backgroundColor = '#F08080';
+})
+console.log(bottomChange)
