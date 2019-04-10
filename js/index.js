@@ -49,5 +49,9 @@ window.addEventListener('scroll', () => {
 console.log(bottomChange)
 
 
+const pClick = document.querySelector("p");
+pClick.addEventListener('click', function (e) {
+    console.log(`Someone clicked here!`);
+});
 
 
