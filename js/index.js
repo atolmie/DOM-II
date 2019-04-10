@@ -42,8 +42,12 @@ welcome.addEventListener('dblclick', () => {
 })
 console.log(welcome);
 
-const bottomChange = document.querySelector("container home");
-bottomChange.addEventListener('scroll', () => {
+const bottomChange = document.querySelector(".container.home");
+window.addEventListener('scroll', () => {
     bottomChange.style.backgroundColor = '#F08080';
 })
 console.log(bottomChange)
+
+
+
+
